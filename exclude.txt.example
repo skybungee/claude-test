@@ -1,0 +1,31 @@
+# Example exclude patterns for backup script
+# One pattern per line
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# Cache directories
+.cache/
+__pycache__/
+*.pyc
+
+# Node modules
+node_modules/
+
+# Log files
+*.log
+
+# Development files
+.git/
+.svn/
+.DS_Store
+
+# Large media directories (uncomment if needed)
+# Videos/
+# Downloads/
+
+# System files
+lost+found/
+.Trash/
